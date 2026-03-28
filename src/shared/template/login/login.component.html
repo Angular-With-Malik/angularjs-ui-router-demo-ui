@@ -1,0 +1,16 @@
+<!-- {{$ctrl.user | json}} -->
+<div class="col-md-4 m-2">
+    <h4>User Login</h4>
+
+    <div class="mt-2">
+        <input class="form-control" placeholder="User Name"
+            ng-model="$ctrl.user.userName">
+    </div>
+    <div class="mt-2">
+        <input class="form-control" placeholder="Password"
+            ng-model="$ctrl.user.password">
+    </div>
+    <div class="mt-2">
+        <button class="btn btn-primary" ng-click="$ctrl.login()">Login</button>
+    </div>
+</div>
