@@ -4,7 +4,7 @@
             templateUrl: 'src/shared/template/header/header.component.html',
             controller: function () {
                 const vm = this
-                vm.title = 'Header Component !!'
+                vm.title = 'My App'
             }
         })
 })()

@@ -1,1 +1,23 @@
-{{$ctrl.title}}
+<!-- {{$ctrl.title}}
+
+<br/>
+
+{{$ctrl.currectRole}}
+
+<br/>
+
+{{$ctrl.allMenu[0][$ctrl.currectRole]}}
+
+<br/> -->
+
+<div class="menu-item">
+    <div ng-repeat="menu in $ctrl.allMenu[0][$ctrl.currectRole]">
+        {{menu.label}}
+    </div>
+</div>
+
+<!-- <br/>
+
+{{$ctrl.allMenu}}
+
+<br/> -->

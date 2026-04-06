@@ -16,5 +16,9 @@
                     url: '/employee',
                     component: 'employeeComponent'
                 })
+                .state('home.admin', {
+                    url: '/admin',
+                    component: 'adminComponent'
+                })
         })
 })()

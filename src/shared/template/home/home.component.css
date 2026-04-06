@@ -1,0 +1,32 @@
+.header-container {
+    background: #3156a9;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.footer-container {
+    background: #3156a9;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-container {
+    background: #122a60;
+    color: white;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item div {
+    padding: 7px;
+}
